@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.prize_money
+{
+    background: #DEAE00;   
+}
+
+.value{
+text-align: center;
+font-size: 5rem;
+vertical-align: middle;
+
+}
+
+.congrats{
+    width: 200px;
+    height: 200px;
+}
+
+
+.sponsor_title{
+font-size: 4rem;
+margin-left:2.5%;
+margin-top: 5%;
+color: #075475;
+}
+
+
+.square{
+    width:20%;
+    margin:2.5%;
+    padding-bottom: 20%;
+    background-color: #075475;
+    border-radius: 12px;
+}
+
+#left-cone{
+    width: 25%;
+    left: 0;
+    position: relative;
+}
+
+#center-text{
+    width: 50%;
+    margin: auto;
+    font-size: 80px;
+    position: relative;
+}
+
+#right-cone{
+   width: 25%;
+    position: relative;
+}
+
+#register{
+    background: #DFB005;
+    border-radius: 8px;
+    border: none;
+    width: 15rem;
+    height: 3rem;
+    margin-top:5%;
+    font-size: 2em;
+}
+
+
+@media  (max-width: 767px){
+    .congrats{
+        width: 100px;
+        height: 100px;
+    }
+}
+@media(max-width:320px){
+    .congrats{
+        width: 50px;
+        height: 50px;
+    }
+    #center-text{
+        font-size: xx-large;
+    }
+}
